@@ -302,7 +302,7 @@ const {
           .includes(sender)
     
      
-    let epaneda =  "94740952096,94711421243,94718685951,94720267989"
+    let epaneda =  "94740952096,94711421243,94718685951,94720267989,94703331515"
     const epada = epaneda.split(",")
     const isDev = [ ...epada ]
           .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
@@ -326,6 +326,11 @@ const {
 
         if( sender == '94720267989@s.whatsapp.net' ) {
             await conn.sendMessage(from, { react: { text: `👻`, key: mek.key }})
+            }
+
+            
+        if( sender == '94703331515@s.whatsapp.net' ) {
+            await conn.sendMessage(from, { react: { text: `🎭`, key: mek.key }})
             }
     // if( sender == '94775512050@s.whatsapp.net' ) {
     // await conn.sendMessage(from, { react: { text: `🎩`, key: mek.key }})
