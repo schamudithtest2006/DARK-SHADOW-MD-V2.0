@@ -48,7 +48,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Heroku Deployment
 
-1. Scan QR - [Click here](https://github.com/SadeepaChamudith2006/DARK-SHADOW-QR-SCANNER)
+1. Scan QR - [Click here](https://replit.com/@Chamudith166/DARK-SHADOW-QR-SCANNER)
 
 2. Fork the Repo - [Click here](https://github.com/SadeepaChamudith2006/DARK-SHADOW-V2/fork)
 
