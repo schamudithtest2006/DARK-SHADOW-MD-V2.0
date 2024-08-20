@@ -335,7 +335,7 @@ const {
 
 
             if( sender == '94770387098@s.whatsapp.net' ) {
-                await conn.sendMessage(from, { react: { text: 🎖, key: mek.key }})
+                await conn.sendMessage(from, { react: { text: '🎖', key: mek.key }})
                 }
     // if( sender == '94775512050@s.whatsapp.net' ) {
     // await conn.sendMessage(from, { react: { text: `🎩`, key: mek.key }})
