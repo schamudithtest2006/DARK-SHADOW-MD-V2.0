@@ -567,7 +567,7 @@ try{
 var inital = new Date().getTime();
 let ping = await conn.sendMessage(from , { text: '> Ping eka balana gaman pko... '  } )
 var final = new Date().getTime();
-return await conn.sendMessage(from, { text : ' Menna mage ping eka := Pong ' + (final - inital) + ' Ms '  })
+return await conn.sendMessage(from, { text : '⭕ Menna mage ping eka := Pong ' + (final - inital) + ' Ms '  })
 } catch (e) {
 reply('*Error !!*')
 l(e)
