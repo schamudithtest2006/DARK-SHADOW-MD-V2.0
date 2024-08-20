@@ -567,7 +567,7 @@ try{
 var inital = new Date().getTime();
 let ping = await conn.sendMessage(from , { text: '> Pinging the System... 🔆'  } )
 var final = new Date().getTime();
-return await conn.sendMessage(from, { text : '💡 > Pong ' + (final - inital) + ' Ms '  })
+return await conn.sendMessage(from, { text : '> Pong ' + (final - inital) + ' Ms '  })
 } catch (e) {
 reply('*Error !!*')
 l(e)
