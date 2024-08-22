@@ -8,7 +8,7 @@ module.exports = {
 DATABASE_URL: process.env.DATABASE_URL === undefined ? 'postgres://koyeb-adm:xnj4ZzT0csAf@ep-old-river-a20xrz5e.eu-central-1.pg.koyeb.app/koyebdb' : process.env.DATABASE_URL,
 AUTO_MSG_READ : process.env.AUTO_MSG_READ === undefined ? 'false' : process.env.AUTO_MSG_READ,
 MODERATORS : process.env.MODERATORS === undefined ? "94740952096,94711421243" : process.env.MODERATORS ,
-SESSION_ID : process.env.SESSION_ID === undefined ? 'cyber-x@;;;8nkT0SpB#brY9cgkViVDPR8UuUMB6VK34wvpdEMdEGUnJd11fXfM' : process.env.SESSION_ID,
+SESSION_ID : process.env.SESSION_ID === undefined ? 'cyber-x@;;;p61SgQrI#nG9OGN0QhNZiFV2xhihysMNus-Xv6yDVhhMBuF0jCRs' : process.env.SESSION_ID,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? 'false' : process.env.ANTI_BAD,
 MAX_SIZE: 20000,
 WORK_TYPE: process.env.WORK_TYPE === undefined ? 'private' : process.env.WORK_TYPE,
